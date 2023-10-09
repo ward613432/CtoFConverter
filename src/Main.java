@@ -19,7 +19,7 @@ public class Main {
             }
         } while (!valid);
 
-        System.out.printf("%-5s %.02f\n", "Degrees C:", celsius);
-        System.out.printf("%-5s %.02f\n", "Degrees F:", farenheit);
+        System.out.printf("%-10s %.02f\n", "Degrees C:", celsius);
+        System.out.printf("%-10s %.02f\n", "Degrees F:", farenheit);
     }
 }
